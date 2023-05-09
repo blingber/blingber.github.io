@@ -71,6 +71,55 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-myreport" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/05/10/myreport/" class="article-date">
+  <time class="dt-published" datetime="2023-05-09T16:01:57.000Z" itemprop="datePublished">2023-05-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/05/10/myreport/">myreport</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>hexo部署一篇操作系统实验报告：</p>
+<p>![](.&#x2F;myreport&#x2F;截屏2023-05-08 上午9.34.08.png)</p>
+<p>插入图片路径存在问题，导致图片无法显示，故此篇尝试解决，成功。</p>
+<p>![](.&#x2F;myreport&#x2F;截屏2023-05-08 上午9.51.28.png)</p>
+<p>要添加图片，先npm install 一个hexo-asset-image的依赖：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+
+<p>然后把_config.yml中的post_asset_folder设为true，这个配置的意思是每次new post一个博客，会增加一个和博客同名的文件夹。</p>
+<p>这次再尝试，通过。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/05/10/myreport/" data-id="clhggyb500000mc8f9feh29ry" data-title="myreport" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" rel="tag">实验报告</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-myhomework" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/05/08/myhomework/" class="article-date">
@@ -459,7 +508,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" style="font-size: 10px;">实验报告</a> <a href="/tags/%E6%9D%82%E7%89%A9%E9%97%B4/" style="font-size: 10px;">杂物间</a>
+      <a href="/tags/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" style="font-size: 20px;">实验报告</a> <a href="/tags/%E6%9D%82%E7%89%A9%E9%97%B4/" style="font-size: 10px;">杂物间</a>
     </div>
   </div>
 
@@ -479,6 +528,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2023/05/10/myreport/">myreport</a>
+          </li>
         
           <li>
             <a href="/2023/05/08/myhomework/">myhomework</a>
